@@ -1,0 +1,34 @@
+
+sugar=60
+salt=80
+oilpackets=100
+coffeepowder=50
+detergent=70
+name=input('enter customer name:')
+phno=int(input('enter customer phno:'))
+sugarq=int(input('enter no of packs of sugar'))
+saltq=int(input('enter no of packs of salt'))
+oilq=int(input('enter no of packs of oil'))
+coffeepowderq=int(input('enter no of packs of coffeepowder'))
+detergentq=int(input('enter no of packs of detergent'))
+bill=(sugar*sugarq)+(salt+saltq)+(oilpackets*oilq)+(coffeepowder*coffeepowderq)+(detergent*detergentq)
+if bill>5000:
+    dis=bill*10/100
+    tax=bill*10/100
+elif bill>3000:
+    dis=bill*8/100
+    tax=bill*10/100
+elif bill>2000:
+    dis=bill*5/100
+    tax=bill*18/100
+elif bill>1000:
+    dis=bill*3/1000
+    tax=bill*18/100
+marketbill=bill-dis+tax
+print('super marketbill=',marketbill)
+
+OUTPUT:
+enter no of packs of oil 3
+enter no of packs of coffeepowder 8
+enter no of packs of detergent 10
+super marketbill= 2030.325
