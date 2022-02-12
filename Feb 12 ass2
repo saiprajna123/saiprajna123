@@ -1,0 +1,15 @@
+ N1=int(input("enter N1"))
+N2=int(input("enter N2"))
+if N1==N2:
+    print("N1 is equal to N2")
+else:
+    print("'N1 is not equal to N2")
+if N1>N2:
+    print("N1 is greater than N2")
+else:
+    print("N1 is lessthan N2")
+Output:
+enter N1   3
+enter N2  2
+'N1 is not equal to N2
+N1 is greater than N2
