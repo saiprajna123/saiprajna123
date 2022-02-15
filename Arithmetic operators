@@ -1,0 +1,15 @@
+lines (8 sloc)  76 Bytes
+a=int(input())
+b=int(input())
+c=a+b
+print(c)
+c=a-b
+print(c)
+c=a*b
+print(c)
+Output:
+2
+3
+5
+-1
+6
